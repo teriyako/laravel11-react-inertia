@@ -116,6 +116,7 @@ export default function Create({ auth, project }) {
                   <option value="">Select Status </option>
                   <option value="pending">Pending</option>
                   <option value="in_progress">In Progress</option>
+                  <option value="completed">Completed</option>
                 </SelectInput>
                 <InputError message={errors.status} className="mt-2" />
               </div>
